@@ -9,7 +9,8 @@
 		"build": "vue-cli-service build",
 		"lint": "vue-cli-service lint",
 		"bundle": "vue-cli-service build --target lib --name CalendarView ./src/components/bundle.js",
-		"prepublishOnly": "npm run bundle"
+		"prepublishOnly": "npm run bundle",
+		"prepare": "npm run build"
 	},
 	"main": "dist/CalendarView.umd.js",
 	"dependencies": {
