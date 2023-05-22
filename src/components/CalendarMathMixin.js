@@ -275,6 +275,7 @@ export default {
 				classes: itemClasses,
 				// Items without a title are untitled
 				title: item.title || "Untitled",
+				tooltip: item.tooltip || null,
 				// An ID is *required*. Auto-generating leads to weird bugs because these are used as keys and passed in items
 				id: item.id,
 			}
